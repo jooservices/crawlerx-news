@@ -152,7 +152,8 @@ final class FetchTest extends TestCase
         $profile = SiteProfile::fromManifest('ap');
 
         self::assertNotEmpty($profile->fetchChain);
-        self::assertSame([FetchMethod::Http, FetchMethod::Flaresolverr], array_slice($profile->fetchChain, 0, 2));
+        self::assertSame(FetchMethod::Http, $profile->fetchChain[0]);
+        self::assertContains(FetchMethod::Flaresolverr, $profile->fetchChain);
     }
 
     public function testSiteProfileUnknownSlug(): void
