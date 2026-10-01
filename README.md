@@ -1,7 +1,13 @@
 # jooservices/crawlerx-news
 
+[![CI](https://github.com/jooservices/crawlerx-news/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/jooservices/crawlerx-news/actions/workflows/ci.yml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jooservices/crawlerx-news/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jooservices/crawlerx-news)
 [![PHP Version](https://img.shields.io/badge/PHP-8.5%2B-blue.svg)](https://www.php.net/)
+[![GitHub Release](https://img.shields.io/github/v/release/jooservices/crawlerx-news?display_name=tag)](https://github.com/jooservices/crawlerx-news/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> [!NOTE]
+> Current release: **`0.1.0-beta.1`** — beta. See [CHANGELOG.md](CHANGELOG.md).
 
 A PHP 8.5+ URL-driven crawl and parse library for news sites. Give CrawlerXNews
 a supported URL and it detects the site and page type, fetches the page through
