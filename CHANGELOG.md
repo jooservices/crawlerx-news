@@ -4,6 +4,8 @@ All notable changes to this package are documented in this file. Format follows 
 
 ## [Unreleased]
 
+## [0.1.0-beta.1] - 2026-10-01
+
 ### Added
 
 - URL-driven crawl and parse library for news sites (`CrawlerXNews::url(...)->crawl()`)
@@ -22,6 +24,6 @@ All notable changes to this package are documented in this file. Format follows 
 - Live-check CLI (`tools/live-check.php`) for one-off crawls against live URLs
 - Fixture capture tools (`tools/capture-fixtures.php`, `tools/capture-api-fixture.php`)
 
-## Not supported
+### Not supported
 
 - Reuters (`reuters.com`) — blocked by DataDome captcha, not resolvable through HTTP or FlareSolverr
