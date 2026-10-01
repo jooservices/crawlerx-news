@@ -1,0 +1,12 @@
+{
+    "slug": "vietnamnet",
+    "name": "VietNamNet",
+    "hosts": ["vietnamnet.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Vietnamnet\\VietnamnetCrawler"
+    },
+    "page_rules": {
+        "article": [".html"],
+        "listing": ["/"]
+    }
+}

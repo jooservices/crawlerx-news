@@ -1,0 +1,12 @@
+{
+    "slug": "tinhte",
+    "name": "Tinhte",
+    "hosts": ["tinhte.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Tinhte\\TinhteCrawler"
+    },
+    "page_rules": {
+        "article": ["/thread/"],
+        "listing": ["/"]
+    }
+}

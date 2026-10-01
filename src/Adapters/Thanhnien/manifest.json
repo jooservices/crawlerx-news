@@ -1,0 +1,12 @@
+{
+    "slug": "thanhnien",
+    "name": "Thanh Niên",
+    "hosts": ["thanhnien.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Thanhnien\\ThanhnienCrawler"
+    },
+    "page_rules": {
+        "article": ["-"],
+        "listing": ["/"]
+    }
+}

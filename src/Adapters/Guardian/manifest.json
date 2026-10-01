@@ -1,0 +1,12 @@
+{
+    "slug": "guardian",
+    "name": "The Guardian",
+    "hosts": ["theguardian.com", "www.theguardian.com"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Guardian\\GuardianCrawler"
+    },
+    "page_rules": {
+        "article": ["/2026/"],
+        "listing": ["/international", "/world", "/technology", "/business"]
+    }
+}

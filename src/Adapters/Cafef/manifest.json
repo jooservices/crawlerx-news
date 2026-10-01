@@ -1,0 +1,12 @@
+{
+    "slug": "cafef",
+    "name": "Cafef",
+    "hosts": ["cafef.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Cafef\\CafefCrawler"
+    },
+    "page_rules": {
+        "article": ["-"],
+        "listing": ["/"]
+    }
+}

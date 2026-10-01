@@ -1,0 +1,17 @@
+{
+    "slug": "ap",
+    "name": "AP News",
+    "hosts": ["apnews.com", "www.apnews.com"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Ap\\ApCrawler"
+    },
+    "page_rules": {
+        "article": ["/article/"],
+        "listing": ["/"]
+    },
+    "fetch_chain": ["http", "flaresolverr", "playwright", "playwright_stealth", "chrome_stealth"],
+    "timeout": 45,
+    "browser_headers": {
+        "Accept-Language": "en-US,en;q=0.9"
+    }
+}

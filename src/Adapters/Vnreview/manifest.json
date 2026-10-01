@@ -1,0 +1,12 @@
+{
+    "slug": "vnreview",
+    "name": "VnReview",
+    "hosts": ["vnreview.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Vnreview\\VnreviewCrawler"
+    },
+    "page_rules": {
+        "article": ["/threads/"],
+        "listing": ["/"]
+    }
+}

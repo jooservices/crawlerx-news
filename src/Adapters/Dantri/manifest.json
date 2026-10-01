@@ -1,0 +1,12 @@
+{
+    "slug": "dantri",
+    "name": "Dân Trí",
+    "hosts": ["dantri.com.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Dantri\\DantriCrawler"
+    },
+    "page_rules": {
+        "article": ["-"],
+        "listing": ["/"]
+    }
+}

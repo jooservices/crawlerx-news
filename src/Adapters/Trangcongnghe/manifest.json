@@ -1,0 +1,12 @@
+{
+    "slug": "trangcongnghe",
+    "name": "Trang Công Nghệ",
+    "hosts": ["trangcongnghe.com.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Trangcongnghe\\TrangcongngheCrawler"
+    },
+    "page_rules": {
+        "article": ["/"],
+        "listing": ["/"]
+    }
+}

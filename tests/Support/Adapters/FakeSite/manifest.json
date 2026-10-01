@@ -1,0 +1,12 @@
+{
+    "slug": "fake",
+    "name": "Fake News",
+    "hosts": ["example.org"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Tests\\Support\\FakeNewsCrawler"
+    },
+    "page_rules": {
+        "article": ["/story/"],
+        "listing": ["/"]
+    }
+}

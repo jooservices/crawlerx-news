@@ -1,0 +1,12 @@
+{
+    "slug": "vietnamplus",
+    "name": "VietnamPlus",
+    "hosts": ["vietnamplus.vn", "www.vietnamplus.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Vietnamplus\\VietnamplusCrawler"
+    },
+    "page_rules": {
+        "article": [".vnp"],
+        "listing": ["/"]
+    }
+}

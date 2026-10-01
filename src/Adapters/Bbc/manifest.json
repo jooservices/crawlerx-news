@@ -1,0 +1,12 @@
+{
+    "slug": "bbc",
+    "name": "BBC News",
+    "hosts": ["bbc.com", "www.bbc.com"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Bbc\\BbcCrawler"
+    },
+    "page_rules": {
+        "article": ["/news/articles/"],
+        "listing": ["/news"]
+    }
+}

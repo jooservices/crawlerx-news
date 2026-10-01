@@ -1,0 +1,12 @@
+{
+    "slug": "genk",
+    "name": "GenK",
+    "hosts": ["genk.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Genk\\GenkCrawler"
+    },
+    "page_rules": {
+        "article": ["-a"],
+        "listing": ["/"]
+    }
+}

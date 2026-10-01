@@ -1,0 +1,12 @@
+{
+    "slug": "cafebiz",
+    "name": "CafeBiz",
+    "hosts": ["cafebiz.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Cafebiz\\CafebizCrawler"
+    },
+    "page_rules": {
+        "article": ["-"],
+        "listing": ["/"]
+    }
+}

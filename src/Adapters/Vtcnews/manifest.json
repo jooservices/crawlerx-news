@@ -1,0 +1,12 @@
+{
+    "slug": "vtcnews",
+    "name": "VTC News",
+    "hosts": ["vtcnews.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Vtcnews\\VtcnewsCrawler"
+    },
+    "page_rules": {
+        "article": ["-ar"],
+        "listing": ["/"]
+    }
+}

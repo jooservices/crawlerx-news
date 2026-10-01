@@ -1,0 +1,12 @@
+{
+    "slug": "znews",
+    "name": "Znews",
+    "hosts": ["znews.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Znews\\ZnewsCrawler"
+    },
+    "page_rules": {
+        "article": ["-post"],
+        "listing": ["/"]
+    }
+}

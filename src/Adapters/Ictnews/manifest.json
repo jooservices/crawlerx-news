@@ -1,0 +1,12 @@
+{
+    "slug": "ictnews",
+    "name": "ICTNews",
+    "hosts": ["ictnews.vn", "ictnews.vietnamnet.vn"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Ictnews\\IctnewsCrawler"
+    },
+    "page_rules": {
+        "article": [".html"],
+        "listing": ["/"]
+    }
+}

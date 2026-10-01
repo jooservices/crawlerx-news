@@ -1,0 +1,12 @@
+{
+    "slug": "vnexpress",
+    "name": "VnExpress",
+    "hosts": ["vnexpress.net"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Vnexpress\\VnexpressCrawler"
+    },
+    "page_rules": {
+        "article": ["-"],
+        "listing": ["/"]
+    }
+}

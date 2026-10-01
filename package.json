@@ -1,0 +1,11 @@
+{
+    "name": "crawlerxnews-scripts",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "playwright:install": "npx playwright install chromium"
+    },
+    "dependencies": {
+        "playwright": "1.62.1"
+    }
+}

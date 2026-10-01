@@ -1,0 +1,12 @@
+{
+    "slug": "npr",
+    "name": "NPR",
+    "hosts": ["npr.org", "www.npr.org"],
+    "adapter": {
+        "class": "JOOservices\\CrawlerXNews\\Adapters\\Npr\\NprCrawler"
+    },
+    "page_rules": {
+        "article": ["/nx-s1-"],
+        "listing": ["/"]
+    }
+}
